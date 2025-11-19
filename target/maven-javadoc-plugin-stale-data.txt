@@ -1,0 +1,47 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+--release
+21
+-sourcepath
+'C:/Users/lucas/Downloads/IUDigital/ingenieria de software/tp8Genielog/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/lucas/Downloads/IUDigital/ingenieria de software/tp8Genielog/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'BowlingMavenEnonce 1.0 API'
+-use
+-version
+-windowtitle
+'BowlingMavenEnonce 1.0 API'
+bowling
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\src\main\java = 1763544951276
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\allclasses-index.html = 1763548136917
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\allpackages-index.html = 1763548136923
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\copy.svg = 1763548137029
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\element-list = 1763548136764
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\help-doc.html = 1763548137013
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\index-all.html = 1763548136989
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\index.html = 1763548137000
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\link.svg = 1763548137033
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\member-search-index.js = 1763548136939
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\module-search-index.js = 1763548136926
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\overview-tree.html = 1763548136889
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\package-search-index.js = 1763548136931
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\script.js = 1763548137023
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\search-page.js = 1763548137068
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\search.html = 1763548136996
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\search.js = 1763548137061
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\stylesheet.css = 1763548137019
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\tag-search-index.js = 1763548136943
+C:\Users\lucas\Downloads\IUDigital\ingenieria de software\tp8Genielog\target\reports\apidocs\type-search-index.js = 1763548136935
