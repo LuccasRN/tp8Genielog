@@ -1,0 +1,58 @@
+@startuml
+
+'======================
+' Clases principales
+'======================
+
+class "PartieMonoJoueur" {
+    - frames : java.util.List<Frame>
+    - currentFrameIndex : int
+
+    + PartieMonoJoueur()
+    + enregistreLancer(nombreDeQuillesAbattues : int) : boolean
+    + score() : int
+    + estTerminee() : boolean
+    + numeroTourCourant() : int
+    + numeroProchainLancer() : int
+
+    - frameCourant() : Frame
+    - calculScore() : int
+    - calculBonus(frameIndex : int) : int
+}
+
+abstract class Frame {
+    # numero : int
+    # lancers : java.util.List<Integer>
+
+    + Frame(numero : int)
+    + ajouterLancer(quilles : int) : void
+    + estComplet() : boolean
+    + estStrike() : boolean
+    + estSpare() : boolean
+    + scoreDeBase() : int
+    + nombreDeLancers() : int
+    + getLancer(index : int) : int
+    + maxLancers() : int
+}
+
+class FrameNormal {
+    + FrameNormal(numero : int)
+    + estComplet() : boolean
+    + maxLancers() : int
+}
+
+class FrameFinal {
+    + FrameFinal()
+    + estComplet() : boolean
+    + maxLancers() : int
+}
+
+'======================
+' Relaciones
+'======================
+
+PartieMonoJoueur "1" *-- "10" Frame        : contient
+FrameNormal --|> Frame
+FrameFinal  --|> Frame
+
+@enduml
